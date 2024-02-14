@@ -1,0 +1,73 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://ground/Ground.gd" type="Script" id=1]
+[ext_resource path="res://ground/yama.png" type="Texture" id=2]
+[ext_resource path="res://ground/line.png" type="Texture" id=4]
+
+
+[node name="Ground" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Yama5" type="Sprite" parent="."]
+position = Vector2( 262.318, 69.7491 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+
+[node name="Yama4" type="Sprite" parent="."]
+position = Vector2( 259.361, 125.013 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+
+[node name="Yama3" type="Sprite" parent="."]
+position = Vector2( 284.753, 298.477 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+
+[node name="Yama2" type="Sprite" parent="."]
+position = Vector2( 299.574, 416.583 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+
+[node name="Yama6" type="Sprite" parent="."]
+position = Vector2( 262.318, 69.7491 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+
+[node name="Yama7" type="Sprite" parent="."]
+position = Vector2( 259.361, 125.013 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+
+[node name="Yama8" type="Sprite" parent="."]
+position = Vector2( 284.753, 298.477 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+
+[node name="Yama9" type="Sprite" parent="."]
+position = Vector2( 299.574, 416.583 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+
+[node name="line3" type="Sprite" parent="."]
+position = Vector2( 632.735, 314.286 )
+scale = Vector2( 1.00448, 0.601705 )
+texture = ExtResource( 4 )
+offset = Vector2( -127.571, -1.01576 )
+
+[node name="line2" type="Sprite" parent="."]
+position = Vector2( 578.625, 500.675 )
+scale = Vector2( 1.0318, 0.601705 )
+texture = ExtResource( 4 )
+offset = Vector2( -67.1684, -1.82854 )
+
+[node name="line1" type="Sprite" parent="."]
+position = Vector2( 681.356, 597.267 )
+scale = Vector2( 1.00109, 0.601705 )
+texture = ExtResource( 4 )
+offset = Vector2( -182.707, 1.13142 )
+
+[node name="line0" type="Sprite" parent="."]
+position = Vector2( 496.773, 634.368 )
+scale = Vector2( 1.00109, 0.601705 )
+texture = ExtResource( 4 )
+offset = Vector2( 3.33476, 1.67659 )
